@@ -120,10 +120,16 @@ header {
           justify-content: center;
   background-color: #FFF;
   position: fixed;
+  z-index: 999;
+  border-bottom: 1px solid #4a4a4a76;
+}
+
+header * {
+  color: black;
 }
 
 header .container {
-  width: 85%;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,6 +186,10 @@ header .container .find-and-appeal .find {
   cursor: pointer;
 }
 
+header .container .find-and-appeal .find i {
+  font-size: 17px;
+}
+
 header .container .contact-and-nav-icon {
   display: none;
 }
@@ -199,6 +209,7 @@ header .container .contact-and-nav-icon {
 
 .header-nav ul a {
   position: relative;
+  font-size: 14px;
 }
 
 .bottom-hovered-after {
@@ -214,7 +225,7 @@ header .container .contact-and-nav-icon {
 .bottom-hovered:hover .bottom-hovered-after {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  width: 100%;
+  width: 99%;
 }
 
 @media screen and (max-width: 991px) {
