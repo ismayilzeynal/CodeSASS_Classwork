@@ -1,0 +1,53 @@
+* {
+    font-family: $base-font;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: $dark-color;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+
+    .container {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: $dark-color;
+    }
+}
+
+
+
+.col-6 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 765px) {
+    .container {
+        width: 100%;
+    }
+
+    .col-6 {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

@@ -1,0 +1,158 @@
+.sectional-title::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-image: linear-gradient(to right, rgb(38, 186, 38), rgb(75, 75, 227), purple, red, yellow);
+}
+
+.education-description {
+    width: 90%;
+    align-self: flex-start;
+}
+
+h3 {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+.bold-title {
+    font-weight: 700;
+}
+
+.edu-item {
+    display: flex;
+    flex-wrap: wrap;
+    border: rgba(0, 0, 0, 0.127) solid 1px;
+}
+
+#digital-marketing,
+#design {
+    border-bottom: none;
+}
+
+#digital-marketing,
+#programming {
+    border-right: none;
+}
+
+
+.edu-item div {
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.edu-item-icon {
+    font-size: 60px;
+    margin-bottom: 30px;
+    /*responsivlikde silmek lazimdi*/
+}
+
+.edu-item-title {
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.edu-item:hover {
+    transform: scale(1.1);
+}
+
+
+
+#digital-marketing:hover {
+    background-color: #872891;
+}
+
+#design:hover {
+    background-color: #FFCF11;
+}
+
+#programming:hover {
+    background-color: #2382C8;
+}
+
+#system-and-network:hover {
+    background-color: #00B45A;
+}
+
+#digital-marketing:hover {
+    color: #FFF;
+}
+
+#design:hover {
+    color: #FFF;
+}
+
+#programming:hover {
+    color: #FFF;
+}
+
+#system-and-network:hover {
+    color: #FFF;
+}
+
+.edu-item {
+    transition: all 0.5s;
+}
+
+.edu-item:hover {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 991px) {
+    .edu-item {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .edu-item-icon {
+        margin-bottom: 0;
+        display: flex;
+        width: 20% !important;
+    }
+
+    .edu-item-title {
+        display: flex;
+        width: 80% !important;
+        align-items: center;
+        padding-left: 50px !important;
+    }
+
+    #digital-marketing,
+    #programming {
+        border-right: rgba(0, 0, 0, 0.127) solid 1px;
+        ;
+    }
+
+    #programming {
+        border-bottom: none;
+    }
+}
+
+
+@media screen and (max-width: 765px) {
+
+    .education-description {
+        width: 60%;
+    }
+
+    .education-description p {
+        line-height: 25px;
+    }
+
+    .edu-items {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .edu-item {
+        padding-left: 10px;
+    }
+
+    .edu-item-title {
+        font-size: 17px;
+    }
+}

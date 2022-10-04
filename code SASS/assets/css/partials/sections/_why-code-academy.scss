@@ -1,0 +1,67 @@
+.why-code-description {
+    margin-top: 40px;
+    width: 100%;
+}
+
+#why-code-academy .container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.detail-item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 60px;
+}
+
+.info-img {
+    width: 260px;
+    height: 206px;
+}
+
+.info-img img {
+    max-width: 200px;
+    height: 100%;
+}
+
+.info-title-and-description {
+    width: calc(100% - 260px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-title h4 {
+    margin: 0;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.info-description p {
+    margin: 0;
+    font-size: 16px;
+    width: 80%;
+}
+
+.info-more p {
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+}
+
+
+@media screen and (max-width: 991px) {
+    #why-code-academy .detailed-info {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .info-title-and-description {
+        width: 100%;
+    }
+    
+    .info-img {
+        display: none;
+    }
+}
