@@ -226,26 +226,17 @@ header .container .contact-and-nav-icon {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .header-logo {
+  header .container .header-logo {
     width: 22%;
   }
-  .header-logo img {
+  header .container .header-logo img {
     max-width: 140px;
   }
-  .header-nav {
+  header .container .header-nav {
     display: none;
   }
   .find-and-appeal {
     display: none;
-  }
-  .contact-and-nav-icon {
-    width: 270px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
   .contact-and-nav-icon {
     width: 220px;

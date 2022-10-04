@@ -93,28 +93,26 @@ header {
         justify-content: space-between;
         padding-top: 20px;
         padding-bottom: 20px;
+
+        .header-logo {
+            width: 22%;
+    
+            img {
+                max-width: 140px;
+            }
+        }
+
+        .header-nav {
+            display: none;
+        }
     }
 
-    .header-logo {
-        width: 22%;
-    }
+    
 
-    .header-logo img {
-        max-width: 140px;
-    }
-
-    .header-nav {
-        display: none;
-    }
+    
 
     .find-and-appeal {
         display: none;
-    }
-
-    .contact-and-nav-icon {
-        width: 270px;
-        display: flex;
-        justify-content: space-between;
     }
 
     .contact-and-nav-icon {
